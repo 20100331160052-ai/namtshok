@@ -1,0 +1,207 @@
+<html>
+<head>
+    <title>Digital World</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        /* Navigation */
+        .navbar {
+            background-color: #0787c9;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 17px;
+        }
+
+        .menu a:hover {
+            color: #ffe38a;
+        }
+
+        /* Banner */
+        .banner {
+            height: 450px;
+            background-image:
+                linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+            background-size: cover;
+            background-position: center;
+
+            text-align: center;
+            padding-top: 120px;
+            color: white;
+        }
+
+        .banner h1 {
+            color: #ffe38a;
+            font-size: 65px;
+            margin: 50px 0 20px;
+        }
+
+        .banner p {
+            font-size: 22px;
+            font-style: italic;
+        }
+
+        /* Section Title */
+        .section-title {
+            background-color: #3b3b3b;
+            color: #ffe38a;
+            padding: 30px 8%;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        /* Content */
+        .content {
+            padding: 40px 8%;
+            line-height: 1.8;
+        }
+
+        .content h2 {
+            color: #0787c9;
+        }
+
+        /* Cards */
+        .cards {
+            display: flex;
+            gap: 25px;
+        }
+
+        .card {
+            background-color: #f5f5f5;
+            padding: 25px;
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        .card h3 {
+            color: #0787c9;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #292929;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+
+        <div class="logo">
+            🌐 DIGITAL WORLD
+        </div>
+
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#technology">Technology</a>
+            <a href="#education">Education</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </div>
+
+
+    <!-- Banner -->
+    <div class="banner" id="home">
+
+        <h1>DIGITAL WORLD</h1>
+
+        <p>
+            Exploring technology, innovation and creativity
+        </p>
+
+    </div>
+
+
+    <!-- Introduction -->
+    <div class="section-title" id="about">
+        INTRODUCTION
+    </div>
+
+    <div class="content">
+
+        <h2>Welcome to the Digital World</h2>
+
+        <p>
+            The digital world is a place where technology connects
+            people, information and ideas. Technology has become an
+            important part of our everyday lives.
+        </p>
+
+
+        <!-- Cards -->
+        <div class="cards">
+
+            <div class="card" id="technology">
+                <h3>💻 Technology</h3>
+
+                <p>
+                    Learn about computers, the internet,
+                    artificial intelligence and robotics.
+                </p>
+            </div>
+
+
+            <div class="card" id="education">
+                <h3>📚 Digital Education</h3>
+
+                <p>
+                    Discover how technology is changing
+                    education and learning.
+                </p>
+            </div>
+
+
+            <div class="card" id="resources">
+                <h3>🚀 Innovation</h3>
+
+                <p>
+                    Explore new ideas and technologies
+                    that are shaping our future.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <p>
+            © 2026 Digital World | Designed using HTML & CSS
+        </p>
+
+    </footer>
+
+</body>
+</html>
